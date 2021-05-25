@@ -4,11 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/index.js"></script>
-  <title>New Project</title>
+  <script src="./js/index.js" defer></script>
+  <title>Rotating Navigation</title>
 </head>
 <body>
-  <h1>Project Starter</h1>
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>Amazing Article</h1>
+      <small>Florin Pop</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quos dolores, hic alias cupiditate neque vero, ad fuga, atque doloribus dolore minus aliquam reiciendis tempora? Veritatis, eaque nemo dignissimos tempore voluptate voluptatem adipisci facere. Voluptas delectus aperiam quas voluptatibus sequi earum, nulla nostrum voluptates, repudiandae totam aut sint nesciunt reiciendis non id minus sed corrupti? Sapiente eum quis velit odio autem quod quae voluptas reiciendis beatae aliquam iure eos sit vel omnis deserunt commodi iste esse numquam sed, cupiditate necessitatibus. Illo, corrupti. Non eius fugit voluptate, consectetur quia aliquid maxime voluptas numquam explicabo neque ullam eos blanditiis culpa quibusdam nostrum!
+      </p>
+
+      <h3>My Dog</h3>
+      <img class="image" src="https://images.pexels.com/photos/128817/pexels-photo-128817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="doggy">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusamus qui optio rem ex natus quae aperiam ea veniam. Aliquam corrupti earum eligendi similique, recusandae alias ex culpa nisi illo voluptates quaerat? Dolor repellendus id temporibus nemo illum error doloribus, ducimus quod totam architecto nostrum nisi officiis sed quisquam est et eius, quis deserunt quae praesentium eum aspernatur suscipit maiores perferendis. Doloribus sunt quos aut molestiae fugiat exercitationem! Nam, deserunt nulla vitae omnis ipsa accusantium?
+      </p>
+    </div>
+  </div>
+
+  <nav>
+    <ul>
+      <li class="fas fa-home"> Home</li>
+      <li class="fas fa-user-alt"> About</li>
+      <li class="fas fa-envelope"> Contact</li>
+    </ul>
+  </nav>
 </body>
 </html>
